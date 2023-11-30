@@ -1,0 +1,35 @@
+{
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "watch": {
+    "start": {
+      "patterns": ["src", "start"],
+      "extensions": "js,jsx,ejs",
+      "quiet": true,
+      "legacyWatch": true,
+      "delay": 55000,
+      "runOnChangeOnly": false
+    }
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "watch": "npm-watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.3",
+    "npm-watch": "^0.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
